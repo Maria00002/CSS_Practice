@@ -1,17 +1,19 @@
 * {
     padding:0;
     margin:0;
-    font-size:40px;
+    /* font-size:40px; */
+    /* box-sizing: content-box;
+    box-sizing: border-box; */
 }
 
-.box-one {
+/* .box-one {
     background-color:#EB5757;
     padding: 10px;
     height: 100px;
     width: 100px;
     border: 30px solid #9B51E0;
     margin: 60px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .box-two {
@@ -22,4 +24,23 @@
     width: 100px;
     border: 30px solid #9B51E0;
     margin: 70px;
+    box-sizing: border-box;
+} */
+
+.box-one {
+    box-sizing: content-box; /* padding size is not included*/
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    background-color:grey;
+    border: 30px solid black;
+}
+
+.box-two {
+    box-sizing: border-box; /* padding size is included in the total measurement */
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    background-color:gold;
+    border: 30px solid black;
 }
