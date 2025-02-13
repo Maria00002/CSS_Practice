@@ -1,0 +1,19 @@
+.nav-list{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 1rem;
+    
+    margin: 0;
+    padding:0;
+    list-style:none;
+}
+
+.nav-list li{
+    flex-grow:0;
+    flex-shrink:1;
+}
+
+header{
+    --border-width: 5px;
+}
