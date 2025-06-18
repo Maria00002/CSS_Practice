@@ -1,23 +1,19 @@
 /* Typical use cases of Flexbox */
 /* Space distributed outside the items */
-nav {
+/* nav {
     border: 2px solid #eeeeee;
-}
+} */
 
-nav ul {
+/* nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between; 
     gap: 20px;
-}
+}  */
 
-.push-right {
-    margin-left: auto;
-}
-
-nav a {
+/* nav a {
     text-decoration: none;
     color:#000;
     border: 2px solid rgb(96 139 168);
@@ -25,11 +21,40 @@ nav a {
     background-color: rgb(96 139 168 / 0.2);
     padding: 10px;
     display: block;
-}
+} */
 
-nav li {
+/* nav li {
     flex: auto;
-}
+} */
 
 /* split navigation */
 /* Another way to align items on the main axis is to use auto margins */
+/* .push-right {
+    margin-left: auto;
+} */
+
+
+/* Center item */
+.box {
+    height: 300px;
+    border: 2px dotted rgb(96 139 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.box div {
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    width: 100px;
+    height: 100px;
+    /* margin: auto; */
+}
+
+
+
+
+
+
