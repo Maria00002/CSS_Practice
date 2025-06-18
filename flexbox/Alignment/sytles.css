@@ -55,7 +55,7 @@
 
 
 /* Card layout pushing footer down */
-body {
+/* body {
     font-family: sans-serif;
 }
 
@@ -79,7 +79,34 @@ body {
 .card footer {
     background-color: rgb(96 139 168 / 0.2);
     padding: 10px;
+} */
+
+/* Media objects */
+/* The media object - an image or other media element with some descriptive text
+side by side - is a common pattern in web design. Media objects should be able to 
+be flipped - moving the image from one side to the other */
+img {
+    max-width: 100%;
+    display: block;
+    flex: 1;
 }
+
+.media {
+    border: 2px dotted rgb(96 139 168);
+    display: flex;
+    align-items: flex-start;
+}
+
+.flipped {
+    flex-direction: row-reverse;
+}
+
+.media .content {
+    flex: 3;
+    padding: 10px;
+}
+
+
 
 
 
